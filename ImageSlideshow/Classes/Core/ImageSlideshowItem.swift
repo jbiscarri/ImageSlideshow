@@ -130,7 +130,7 @@ open class ImageSlideshowItem: UIScrollView, UIScrollViewDelegate {
         }
     }
 
-    func releaseImage() {
+    public func releaseImage() {
         imageReleased = true
         self.imageView.image = nil
     }
